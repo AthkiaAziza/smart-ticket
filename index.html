@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header class="container mx-auto px-4 lg:px-24">
+    <header class="px-4 lg:px-24">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -58,11 +58,90 @@
                 </div>
             </div>
         </nav>
+        <!-- Banner section -->
+        <section class="relative mb-32">
+            <!-- image div -->
+            <div>
+                <div class="mx-auto w-full bg-center bg-no-repeat min-h-screen"
+                    style="background-image: url(images/banner.png);">
+                    <!-- <div class="hero-overlay"></div> -->
+                    <div class="text-center">
+                        <div class="text-center pt-44">
+                            <h1> <span class="text-[#FFFFFF] font-extrabold text-6xl">End-to-End Travel with</span> <br> <span class="text-[#1DD100] font-extrabold text-6xl">P Paribahan</span></h1>
+                            <p class="mt-5 text-[#FFFFFF] text-lg">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+                            <button class="btn mt-5 bg-[#1DD100] border-none">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- badge div -->
+            <div class="flex gap-10 ml-48 absolute -mt-36">
+                <!-- 1st badge -->
+                <div class="flex gap-4 p-9 bg-[#FFFFFF] rounded-3xl border-solid border-b-4 border-[#1DD100]">
+                    <img src="images/people.png" alt="">
+                    <div>
+                        <p class="text-[#030712] font-bold text-4xl">500K+</p>
+                        <p class="text-[#03071299] text-lg">Registered users</p>
+                    </div>
+                </div>
+                <!-- 2nd badge -->
+                <div class="flex gap-4 p-9 bg-[#FFFFFF] rounded-3xl border-solid border-b-4 border-[#1DD100]">
+                    <img src="images/ticket-cupon.png" alt="">
+                    <div>
+                        <p class="text-[#030712] font-bold text-4xl">500K+</p>
+                        <p class="text-[#03071299] text-lg">Registered users</p>
+                    </div>
+                </div>
+                <!-- 3rd badge -->
+                <div class="flex gap-4 p-9 bg-[#FFFFFF] rounded-3xl border-solid border-b-4 border-[#1DD100]">
+                    <img src="images/stoppage.png" alt="">
+                    <div>
+                        <p class="text-[#030712] font-bold text-4xl">500K+</p>
+                        <p class="text-[#03071299] text-lg">Registered users</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <main>
+    <main class="container mx-auto px-4 lg:px-24 mb-32">
+        <div class="text-center mb-10">
+            <p class="text-[#030712] font-bold text-4xl">Best offers for you</p>
+        </div>
+        <!-- card container -->
+        <div class="flex gap-5">
+            <!-- 1st card div -->
+            <div class="flex flex-1 rounded-3xl bg-[#FFBF0F]">
+                <div class="space-y-3 py-10 pl-12 pr-14">
+                    <p class="font-black text-4xl text-[#030712CC]">15% OFF</p>
+                    <p class="text-xl font-semibold text-[#030712CC]">on your next purchase</p>
+                    <p class="font-medium text-[#03071280]">use by January 2024</p>
+                </div>
+                <img src="images/cupon-devider.png" alt="">
+                <div class="space-y-3 py-16 pl-10 pr-14">
+                    <p class="font-bold text-3xl text-[#030712]">NEW15</p>
+                    <p class="text-xl font-medium text-[#03071266]">Coupon Code</p>
+                </div>
+            </div>
+            <!-- 2nd card div -->
+            <div class="flex flex-1 rounded-3xl bg-[#F78C9C]">
+                <div class="space-y-3 py-10 pl-12 pr-14">
+                    <p class="font-black text-4xl text-[#030712CC]">20% OFF</p>
+                    <p class="text-xl font-semibold text-[#030712CC]">on your next purchase</p>
+                    <p class="font-medium text-[#03071280]">use by January 2024</p>
+                </div>
+                <img src="images/cupon-devider.png" alt="">
+                <div class="space-y-3 py-16 pl-10 pr-14">
+                    <p class="font-bold text-3xl text-[#030712]">Couple 20</p>
+                    <p class="text-xl font-medium text-[#03071266]">Coupon Code</p>
+                </div>
+            </div>
+        </div>
+        <div class=" flex justify-center mt-10">
+            <button class="btn bg-white text-[#1DD100] border-[#1DD100]">See All Offers</button>
+        </div>
 
     </main>
-    <footer class="bg-[#030712] container mx-auto px-4 lg:px-24">
+    <footer class="bg-[#030712] container mx-auto px-4 lg:px-24 pt-16">
         <!-- container div -->
         <div>
             <!-- 1st -->
